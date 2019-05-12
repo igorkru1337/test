@@ -1,8 +1,10 @@
-# .travis-ci.yml
+language: C++
+
+dist: xenial
+
 - sudo apt-get install -qq cxxtest
 env: CXXTEST=/usr/include
 
-# Test build success and unit test passing.
 script:
   - dpkg -L cxxtest
   - echo $PATH
