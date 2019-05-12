@@ -7,3 +7,4 @@ script:
   - dpkg -L cxxtest
   - echo $PATH
   - cxxtestgen
+  - make
