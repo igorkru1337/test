@@ -3,4 +3,4 @@ language: C++
 dist: xenial
 
 script:
-  - make
+  - make -f googletest/make
