@@ -5,4 +5,4 @@ dist: xenial
 script:
   - make -C googletest/make
   - cd bin && ./sample1_unittest
-  - make clean -C googletest/make
+  - make clean -C ../googletest/make
